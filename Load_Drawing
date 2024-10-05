@@ -504,5 +504,4 @@
 		end
 
 		setreadonly(DrawingLib, true)
-		Drawing = DrawingLib
-		getgenv().Drawing = DrawingLib
+		return DrawingLib
